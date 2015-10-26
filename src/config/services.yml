@@ -1,0 +1,6 @@
+parameters:
+  aaaa: "aaa"
+
+services:
+  command.handler.start:
+    class: Testify\Handler\StartHandler

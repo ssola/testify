@@ -1,0 +1,26 @@
+{
+  "name": "ssola/testify",
+  "description": "Testing platform for recruiting",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Sergio Sola",
+      "email": "introduccio@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Testify\\": "src/",
+      "Tests\\Testify\\": "tests/"
+    }
+  },
+  "require": {
+    "phpunit/phpunit": "^5.0",
+    "symfony/dependency-injection": "^2.7",
+    "react/react": "^0.4.2",
+    "symfony/config": "2.5.*",
+    "symfony/yaml": "2.5.*",
+    "knplabs/github-api": "^1.5"
+  }
+}
